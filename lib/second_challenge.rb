@@ -8,6 +8,10 @@ def second_challenge
 
   #code your solution here!
 
-  
+  shopping_list = []
 
-end
+    new_stuff = groceries.values
+    shopping_list << new_stuff
+
+    shopping_list.flatten
+  end
